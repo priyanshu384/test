@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa Plastic Atlas</title>
+    <style>
+        
+       body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://www.czma.goa.gov.in/images/colva-beach-goa.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+        
+
+        .header {
+            position: relative;
+            text-align: center;
+            background-color: #007BFF;
+            color: white;
+            padding: 3px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 2px;
+        }
+
+        .logo {
+            height: auto;
+            position: absolute;
+            top: 5px;
+        }
+
+        .left {
+            width: 45px; /* Small left logo */
+            left: 20px;
+        }
+
+        .right {
+            width: 140px; /* Larger right logo */
+            right: 20px;
+        }
+
+        .marquee-container {
+            background-color: #40E0D0;
+            color: #030303;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px;
+            border-top: 1px solid #007BFF;
+            border-bottom: 1px solid #007BFF;
+            margin-top: 5px;
+        }
+
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 95%;
+            height: 620px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section with logos -->
+    <div class="header">
+        <a href="https://www.worldwildlife.org/about" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/24/WWF_logo.svg" alt="WWF Logo Left" class="logo left">
+        </a>
+        <h1>Goa Plastic Atlas</h1>
+        <a href="https://cwsindia.org/about/" target="_blank">
+            <img src="https://panorama.solutions/sites/default/files/organisation-logo/2019_cws_logo_high_res.png" alt="CWS Logo Right" class="logo right">
+        </a>
+    </div>
+
+    <!-- Marquee Text -->
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left">Remote Sensing and Machine Learning - Based Detection of Floating Offshore Plastic Debris, aided by WebGIS Dashboard for Effective Plastic Pollution Management and protection of marine biodiversity in the coastal areas of Goa</marquee>
+    </div>
+<script src="https://colab.research.google.com/drive/1nHZtiCf89EBZjkX0hmNr6ByQ_t8u9sAM?usp=sharing"></script>
+
+<iframe src="https://code.earthengine.google.com/5718987e850c43330fa7bf719c154ec1?hideCode=true">
+        width="100%" 
+        height="600px">
+</iframe>
+
+
+    </body>
+</html>
